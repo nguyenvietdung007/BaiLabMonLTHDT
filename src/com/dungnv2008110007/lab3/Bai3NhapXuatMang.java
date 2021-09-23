@@ -2,9 +2,9 @@
     Lab 3 Bài 3: Viết chương trình nhập mảng số nguyên từ bàn phím. 
     Sắp xếp và xuất mảng vừa nhập ra màn hình.3 
     Xuất phần tử có giá trị nhỏ nhất ra màn hình 
-    Tính và xuất ra màn hình trung bình cộng các phần tử chia hết cho 3
+    Tính và xuất ra màn hình trung bình cộng các phần tử chia hết cho 3 
 */
-package tuan02.Lab3;
+package com.dungnv2008110007.lab3;
 import java.util.Scanner;
 public class Bai3NhapXuatMang {
     public static void main(String[] args){
