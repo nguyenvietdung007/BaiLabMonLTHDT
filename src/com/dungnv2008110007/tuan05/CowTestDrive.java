@@ -13,5 +13,4 @@ public class CowTestDrive {
         cow.inThongTin();
         cow.moo();
     }
-
 }
