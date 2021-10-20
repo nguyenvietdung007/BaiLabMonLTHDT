@@ -44,6 +44,7 @@ public class CowChoMangTestDrive {
         m = c;
         System.out.println("Danh sách bò sau khi xóa là:");
         inDSCow(cow, m);
+        
     }
     static void nhapDSCow(CowChoMang mang[], int a){
         String m;
@@ -114,4 +115,6 @@ public class CowChoMangTestDrive {
         }
         
     }
+   
+
 }
