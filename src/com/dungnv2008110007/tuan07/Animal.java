@@ -6,6 +6,24 @@ public class Animal {
     protected int mucDoDoiBung;
     protected String khuVucDiChuyen;
 
+    protected void setLoaiThucAn(String l){
+        loaiThucAn = l;
+    }
+    private String getThucAn(){
+        return loaiThucAn;
+    }
+    protected void setMucDoi(int g){
+        if(g >= 0)
+            mucDoDoiBung = g;
+        else
+            System.out.println("Không phù hợp !!!");
+    }
+    protected void tenDongVat(String d){
+        System.out.println(d);
+    }
+    protected void xuatLoaiThucAn(){
+        System.out.println("Loại thức ăn: "+getThucAn());
+    }
     protected void phatTiengKeu(){
         System.out.println("Gâu..gâu..gâu..");
     }
