@@ -19,7 +19,7 @@ public class NhanVien extends Nguoi {
     @Override
     public String toString() {
         String s;
-        s = "Hệ số lương: "+getHeSoLuong()+" Lương: "+tinhLuong();
+        s = "\n"+"Tên: "+getHoTen()+" Địa chỉ: "+getDiaChi()+" Hệ số lương: "+getHeSoLuong()+" Lương: "+tinhLuong();
         return s;
     }
 }

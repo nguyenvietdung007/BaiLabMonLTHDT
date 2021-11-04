@@ -1,7 +1,5 @@
 package com.dungnv2008110007.kiemtragiuaky;
 
-import java.util.ArrayList;
-
 public class QuanLyTestDrive {
     public static void main(String[] args) {
         DanhSachQuanLy ds = new DanhSachQuanLy();
@@ -12,6 +10,7 @@ public class QuanLyTestDrive {
         hocVien.setDiaChi("123 Nguyễn Oanh");
         hocVien.setDiemMH1(7);
         hocVien.setDiemMH2(9);
+        hocVien.setSoLuongHV(10);
         nhanVien.setHoTen("Nguyễn B");
         nhanVien.setDiaChi("47 Trường Chinh");
         nhanVien.setHeSoLuong(2);

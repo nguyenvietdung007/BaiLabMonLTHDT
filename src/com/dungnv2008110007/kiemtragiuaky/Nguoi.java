@@ -16,6 +16,8 @@ public class Nguoi {
     }
     @Override
     public String toString() {
-        return (getHoTen() + getDiaChi());
+        String s;
+        s = "Tên: "+getHoTen()+" Địa chỉ: "+getDiaChi();
+        return s;
     }
 }

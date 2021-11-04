@@ -20,6 +20,15 @@ public class HocVien extends Nguoi {
         else 
             System.out.println("Điểm không hợp lệ");
     }
+    protected void setSoLuongHV(int m){
+        if(0 < m)
+            soLuongHV = m;
+        else
+            System.out.println("Số lượng học viên ko hợp lệ");
+    }
+    protected int getSoLuongHV(){
+        return soLuongHV;
+    }
     protected float getDiemMH2(){
         return diemMonHoc2;
     }
@@ -29,7 +38,7 @@ public class HocVien extends Nguoi {
     @Override
     public String toString() {
         String s;
-        s = "Điểm môn học 1: "+getDiemMH1()+"Điểm môn học 2: "+getDiemMH2()+"Điểm trung bình: "+diemTB();
+        s = "Tên: "+getHoTen()+" Địa chỉ: "+getDiaChi()+" Điểm môn học 1: "+getDiemMH1()+" Điểm môn học 2: "+getDiemMH2()+" Điểm trung bình: "+diemTB()+" Số lượng học viên: "+getSoLuongHV();
         return s;
     }
 }

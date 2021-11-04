@@ -21,7 +21,7 @@ public class KhachHang extends Nguoi {
     @Override
     public String toString() {
         String s;
-        s = "Tên công ty: "+getTenCongTy()+" Trị giá hóa đơn: "+getTriGiaHoaDon();
+        s = "\n"+"Tên: "+getHoTen()+" Địa chỉ: "+getDiaChi()+" Tên công ty: "+getTenCongTy()+" Trị giá hóa đơn: "+getTriGiaHoaDon()+"\n";
         return s;
     }
 }
