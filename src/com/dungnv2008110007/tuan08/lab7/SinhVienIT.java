@@ -10,4 +10,10 @@ public class SinhVienIT extends SinhVien {
         this.diemHtml = diemHtml;
         this.diemCss = diemCss;
     }
+    @Override
+    protected double getDiem() {
+        double diem;
+        diem = (2*diemJava + diemHtml + diemCss)/4 ;
+        return diem;
+    }
 }
