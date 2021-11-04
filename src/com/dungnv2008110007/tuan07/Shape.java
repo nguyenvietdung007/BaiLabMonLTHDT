@@ -5,16 +5,16 @@ public class Shape {
     private boolean nhapChuotChua;
     private static int soLanNhapChuot;
 
-    protected void xoay(){
+    public void xoay(){
         System.out.println("Xoay 360 độ theo chiều kim đồng hồ ");
     }
-    private void phatAmThanh(){
+    public void phatAmThanh(){
         System.out.println("Âm thanh phát ra: "+getAmThanh()+"\n");
     }
     protected void setShape(String a){
         System.out.println(a);
     }
-    protected void setAmThanh(String aT){
+    public void setAmThanh(String aT){
         amThanh = aT;
     }
     private String getAmThanh(){

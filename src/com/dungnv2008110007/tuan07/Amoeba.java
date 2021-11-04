@@ -6,7 +6,7 @@ public class Amoeba extends Shape {
         x = a;
         y = b;
     }
-    protected void xoay(){
+    public void xoay(){
         System.out.println("Hình xoay theo tọa độ x = "+x+" và y = "+y);
     }
 }
