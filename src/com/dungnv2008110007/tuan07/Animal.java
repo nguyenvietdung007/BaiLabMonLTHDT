@@ -1,28 +1,26 @@
 package com.dungnv2008110007.tuan07;
 
 public class Animal {
-    protected String hinhAnhCuaNo;
-    protected String loaiThucAn;
-    protected int mucDoDoiBung;
-    protected String khuVucDiChuyen;
+    private String hinhAnhCuaNo;
+    private String loaiThucAn;
+    private int mucDoDoiBung;
+    private String khuVucDiChuyen;
 
-    protected void setLoaiThucAn(String l){
+    
+    protected Animal(String h, String l, int g, String k){
+        hinhAnhCuaNo = h;
         loaiThucAn = l;
-    }
-    private String getThucAn(){
-        return loaiThucAn;
-    }
-    protected void setMucDoi(int g){
         if(g >= 0)
             mucDoDoiBung = g;
         else
             System.out.println("Không phù hợp !!!");
+        khuVucDiChuyen = k;
     }
-    protected void tenDongVat(String d){
-        System.out.println(d);
-    }
-    protected void xuatLoaiThucAn(){
-        System.out.println("Loại thức ăn: "+getThucAn());
+    protected void xuatThongTin(){
+        System.out.println("Tên động vật: "+hinhAnhCuaNo);
+        System.out.println("Loại thức ăn: "+loaiThucAn);
+        System.out.println("Mức độ đói bụng: "+mucDoDoiBung);
+        System.out.println("Khu vực di chuyển: "+khuVucDiChuyen);
     }
     protected void phatTiengKeu(){
         System.out.println("Gâu..gâu..gâu..");
